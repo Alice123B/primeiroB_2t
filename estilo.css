@@ -1,12 +1,14 @@
 body {
    background: #d696f0;
+   margin: 0;
+   padding: 0;
 }
 h1 {
    text-align: center;
 }
 .caixa1 {
   position: relative;
-  background: rgb(192, 65, 135);
+  background: rgb(107, 70, 91);
   width: 200px;
   height: 200px;
   color: #FFFFFF;
@@ -14,7 +16,7 @@ h1 {
 }
 .caixa2 {
   position: relative;
-  background: rgb(197, 97, 228);
+  background: rgb(0, 0, 0);
  width: 200px;
  height: 200px;
  color: #FFFFFF;
@@ -52,18 +54,40 @@ li a:hover {
    color: rgb(0, 0, 0);
 }
 #bomba {
-   width: 10%;
+   width: 20%;
 }
 .boxbomba {
    position: absolute;
-   width: 100% ;
+   width: 90% ;
    height: 200px ;
-   background: rgb(121, 54, 184);
+   background: rgb(119, 103, 134);
    top: 50px;
    left: 0;
-   border-color: rgb(56, 23, 56);
-   border-width: 15px;
+   border-color: rgb(89, 55, 128);
+   border-width: 20px;
    border-style: solid;
    margin: 20px;
    padding: 20px;
+   display: flex;
+   justify-content: center;
+   font-size: 15px;
+
+}
+.rodape {
+   position: absolute;
+   bottom: 0;
+   background: black;
+   color: burlywood;
+   width: 100%;
+   left: 0;
+   height: 40px;
+   display: flex;
+   justify-content: center;
+   font-size: 17px;
+}
+.nike {
+   position: absolute;
+   top: 40px;
+   width: 100%;
+
 }
